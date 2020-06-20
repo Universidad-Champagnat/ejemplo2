@@ -14,6 +14,7 @@ export class EchartsBarComponent implements AfterViewInit, OnDestroy {
   themeSubscription: any;
   cantCasosEnMarzo: number = 0;
   cantCasosEnAbril: number = 0; 
+    
   cantCasosEnMayo: number = 0;
 
   constructor(private theme: NbThemeService, private casosEnArgentinaService: CasosEnArgentinaService) {}
